@@ -6,7 +6,7 @@
   <p align="center">
     Contributors:Nikolaos Giannopoulos
     <br />
-    Winter Semester 2021 - 2022
+    Spring Semester 2021 - 2022
     <br />
     <br />
   </p>
