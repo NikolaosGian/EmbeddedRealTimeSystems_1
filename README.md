@@ -28,7 +28,7 @@
 To test the results go to `source/assignment_1/` download the file and run `make all` second `bash script.sh` and then `python3 calcWaitTime.py` at the linux command line.
 ## 2.1 Introduction
 In this paper I used the Oracle VM VirtualBox program with the Ubuntu 20.04 LTS operating system which has 2 cores and 4 GB of memory available.
-The system my system contains the Intel(R) Core(R) i5-8300H CPU @ 2.30 GHz with 16 GB of memory.
+My system contains the Intel(R) Core(R) i5-8300H CPU @ 2.30 GHz with 16 GB of memory.
 ## 2.2 Waiting time statistics
 In graph 1 we see the waiting time between producer and consumer with different sizes of the variable LOOP in the code provided in the e-learning. <br />
 
