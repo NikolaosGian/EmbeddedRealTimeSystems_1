@@ -25,17 +25,16 @@
 <br />
 
 # 2. Assignment 1
-To test the results go to `source/assignment_1/` download the file and run `make all` second `bash script.sh` and then `python3 calcWaitTime.py` at the linux command line.
 ## 2.1 Introduction
-In this paper I used the Oracle VM VirtualBox program with the Ubuntu 20.04 LTS operating system which has 2 cores and 4 GB of memory available.
-My system contains the Intel(R) Core(R) i5-8300H CPU @ 2.30 GHz with 16 GB of memory.
+In this paper I used the wsl program with the Ubuntu 20.04 LTS operating system. My system contains the Intel(R) Core(R) i5-8300H CPU @ 2.30 GHz with 16 GB memory.
 ## 2.2 Waiting time statistics
-In graph 1 we see the waiting time between producer and consumer with different sizes of the variable LOOP in the code provided in the e-learning. <br />
+In graph 1 we see the waiting time between producer and consumer with different sizes of consumers.But the producer method remained constant with 4 threads for each run.
+ <br />
 
 <img src="https://github.com/NikolaosGian/EmbeddedRealTimeSystems/blob/main/graphs/graph_1.PNG"> <br />
 
-We notice that when we have threads of size 10,000 the time waiting time between producer and consumer is 0.9 us. As we increase to 20,000 threads it is 0.74 us but we observe
-a particular behavior when the number of threads is 30,000 the the time between producer & consumer is 0.3 us. Then between the range {50,000, 500,000} threads the time remains almost the same.It shows a big improvement from 600,000 to 700,000 threads the time between producer & consumer is 0.24us and 0.23 us which is very attractive in applications that need fast response for various parameters.
+We note that when we have yarns of size 50 to 200 waiting time between producer and consumer is uneven. As we increase to 500 threads we find that 0.171 ms but there is a particular behavior when the number of threads from 1000 to 7000 the time remains approximately constant.
+
 
 <br />
 
@@ -44,7 +43,7 @@ Graph 2 shows the average waiting time in each of the case. <br />
 
 <img src="https://github.com/NikolaosGian/EmbeddedRealTimeSystems/blob/main/graphs/graph_2.PNG"> <br />
 
-We note that for a size of 50,000 threads the average time waiting time is 3 the 2nd best in time is with size 600,000 threads and 1st and best at thread size equal to 500.000. As it leads us to the conclusion that the number of threads that minimizes the average waiting time is 500,000.
+We note that the average waiting time is about constant when the consumer threads are 4000 threads in number to 7000.
 
 <br />
 
