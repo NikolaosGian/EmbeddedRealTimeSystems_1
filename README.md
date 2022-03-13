@@ -28,7 +28,8 @@
 ## 2.1 Introduction
 In this paper I used the wsl program with the Ubuntu 20.04 LTS operating system. My system contains the Intel(R) Core(R) i5-8300H CPU @ 2.30 GHz with 16 GB memory.
 ## 2.2 Waiting time statistics
-In graph 1 we see the waiting time between producer and consumer with different sizes of consumers.But the producer method remained constant with 4 threads for each run.
+
+In Figure 1 we see the waiting time between producer and consumer with different sizes of consumers. However, the size of producer remained constant with 4 threads for each execution.
  <br />
 
 <img src="https://github.com/NikolaosGian/EmbeddedRealTimeSystems/blob/main/graphs/graph_1.PNG"> <br />
