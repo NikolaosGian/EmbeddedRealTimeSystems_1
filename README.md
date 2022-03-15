@@ -35,7 +35,7 @@ and counts running for each result shown below
 ## 2.2 Waiting time statistics
 In Figure 1 we see the waiting time between producer and consumer with different sizes of consumers; however, the size of producer remained constant with 4 threads for each execution. <br />
 
-<img src=""> <br />
+<img src="https://github.com/NikolaosGian/EmbeddedRealTimeSystems/blob/main/graphs/graph_1.PNG"> <br />
 
 We notice that when we have thread sizes 50 to 200 the waiting time between producer and consumer is uneven. As we increase to 500 threads we get 0.171 ms but there is a particular behavior when the number of threads from 1000 to 7000 the time remains approximately constant.
 
@@ -44,13 +44,8 @@ We notice that when we have thread sizes 50 to 200 the waiting time between prod
 ## 2.3 Average cost of the residence time 
 Graph 2 shows the average waiting time in each case. <br />
 
-<img src=""> <br />
+<img src="https://github.com/NikolaosGian/EmbeddedRealTimeSystems/blob/main/graphs/graph_2.PNG"> <br />
 
 We observe that the average waiting time is approximately constant when the consumer threads are between 4000 and 7000
 
 <br />
-
-# 3. Assignment 2
-
-# 4. Assignment 3
-
